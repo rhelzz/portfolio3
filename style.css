@@ -1,0 +1,72 @@
+.bg-lightgray{
+    background-color: lightgray;
+}
+
+.shadow-sm2{
+    box-shadow: 0px 3px 10px black;
+}
+
+.text-white2{
+    color: whitesmoke;
+}
+
+.bg-skyblue{
+    background-color: rgb(76, 171, 208);
+}
+
+.bg-home{
+    background-image: url("asset/bg-home.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bg-about{
+    background-image: url("asset/bg-about.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bg-service{
+    background-image: url("asset/bg-service.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bg-portfolio{
+    background-image: url("asset/bg-portfolio.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bg-business{
+    background-image: url("asset/bg-business.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+@media (max-width: 768px) {
+
+    .bg-home{
+        background-image: url("asset/bg-home2.png");
+    }
+
+    .bg-about{
+        background-image: url("asset/bg-about2.png");
+    }
+
+    .bg-service{
+      background-image: url("asset/bg-service2.png") ;
+    }
+
+    .bg-portfolio{
+      background-image: url("asset/bg-portfolio2.png");
+    }
+
+    .bg-business{
+      background-image: url("asset/bg-business2.png");
+    }
+
+    #business #icon{
+        color: black !important;
+    }
+  }
